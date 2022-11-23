@@ -1,0 +1,66 @@
+<!doctype hmtl>
+<html>
+  
+    <title>Account Management System</title>
+     <style>
+      .for{
+        position: absolute;
+        top: 100px;
+        right: 300px;
+
+      }
+        h1{
+            background-color:rgb(226, 157, 244);
+         }      
+        button
+        {
+           width:200px;
+           height:50px;
+           text-align:left-align;
+           background-color:lightblue;
+        }
+        body{
+          background-color:aliceblue;
+        }
+        h4
+        {
+           background-color:pink;
+        }
+        
+        k{
+          text-align:left-align;
+        }
+     </style>
+  </head>
+  <body>
+   <center> <h1 id="h">Account Managment System</h1></center>
+     <button onclick="document.getElementById('for').style.display='block'">Create Account</button>
+<br><br><br><br>
+     <button>Delete Account</button>
+<br><br><br><br>
+      <button>Update Account</button>
+<br><br><br><br>
+      <button>Deposit Amount</button>
+<br><br><br><br>
+     <button>Withdraw Amount</button>
+<br><br><br><br>
+<div class="for">
+<form >
+	  <lable for="mail"><b>Enter Email-id <b></label>
+	  <input type="email" placeholder="xyz@gmail.com" name="mail" required><br><br>
+	  <lable for="fn"><b> Enter first name <b></label>
+	  <input type="text" placeholder="ram" name="fn" required><br><br>
+	  <lable for="ln"><b> Enter Last name <b></label>
+	  <input type="text" placeholder="R" name="ln" required><br><br>
+	  <lable for="bday"><b>Enter Birthday</b></label>
+	  <input type="date" name="bday" ><br><br>
+	  <lable for="pwd" ><b>Enter Password<b></label>
+	  <input type="password" name="pwd" minlength="8" required><br><br>
+	  <lable for="add"><b>Enter Address<b></lable>
+                   <input type="text"><br><br>
+                  <input type="submit">
+    </form>
+    </div>
+<h4>@2022,Virtusa system,Inc<br>All Rights are Reserved</h4>
+  </body>
+</html>
